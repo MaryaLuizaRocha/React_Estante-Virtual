@@ -1,0 +1,43 @@
+/* Header.css */
+
+/* Estilos para o Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo-container {
+  width: 50px; /* Define o tamanho do contêiner da imagem */
+  height: 50px; /* Define o tamanho do contêiner da imagem */
+}
+
+.logo {
+  width: 100%; /* Faz a imagem ocupar 100% do contêiner */
+  height: 100%; /* Garante que a imagem ocupe toda a altura do contêiner */
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  font-size: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

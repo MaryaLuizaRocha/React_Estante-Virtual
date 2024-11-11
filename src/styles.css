@@ -1,0 +1,469 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* CSS para o Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo-container {
+  width: 50px; /* Define o tamanho do contêiner da imagem */
+  height: 50px; /* Define o tamanho do contêiner da imagem */
+}
+
+.logo {
+  width: 100%; /* Faz a imagem ocupar 100% do contêiner */
+  height: 100%; /* Garante que a imagem ocupe toda a altura do contêiner */
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.book-list {
+  margin: 20px;
+}
+
+.book-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  background-color: #fff;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+select {
+  margin-top: 10px;
+}
+
+/* Estilo para o campo de pesquisa */
+.search input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.book-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.book-list-container p {
+  font-size: 18px;
+  color: #888;
+}
+
+/* Search.css */
+.search {
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.book-card {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  max-width: 150px; /* Limita o tamanho da imagem */
+  margin-bottom: 10px;
+}
+
+.book-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Adicionando estilo para o filtro */
+.search select {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin: 10px;
+}
+
+.book-card img {
+  max-width: 150px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.book-card h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.book-card select {
+  margin-top: 10px;
+}
+
+.home {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.book-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin: 10px;
+}
+
+.book-card img {
+  max-width: 150px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.book-card h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.book-card select {
+  margin-top: 10px;
+}
+
+/* Home - Centralizar todo o conteúdo da página */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; /* Limita a largura máxima */
+  min-height: 100vh; /* Garante que a altura seja no mínimo a altura da tela */
+  box-sizing: border-box;
+}
+
+/* Estilo para cada título de categoria (Estante) */
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  text-align: center; /* Centraliza o título da estante */
+  color: #333;
+}
+
+/* Estilo para o contêiner de livros */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os livros no contêiner */
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px; /* Limita a largura máxima dos livros */
+  margin: 0 auto;
+}
+
+/* Estilo de cada cartão de livro */
+.book-card {
+  width: 200px; /* Define a largura dos cartões de livro */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out; /* Animação suave ao passar o mouse */
+}
+
+.book-card:hover {
+  transform: scale(1.05); /* Aumenta ligeiramente o cartão ao passar o mouse */
+}
+
+/* Estilo da imagem do livro */
+.book-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para cada cartão de livro */
+.book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante que os filtros fiquem na parte inferior */
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  height: 300px; /* Define uma altura fixa para garantir que todos os cartões tenham o mesmo tamanho */
+}
+
+.book-card:hover {
+  transform: scale(1.05); /* Aumenta ligeiramente o cartão ao passar o mouse */
+}
+
+/* Estilo para a imagem do livro */
+.book-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o seletor de estantes (filtros) */
+.book-card select {
+  margin-top: auto; /* Faz o select ficar no fundo do cartão */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Estilo para o contêiner da página de pesquisa */
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Estilo para o campo de pesquisa */
+.search input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para o contêiner de livros (grid) */
+.book-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo para a mensagem quando não houver livros */
+.book-list-container p {
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  color: #888;
+}
+
+/* Estilo para cada cartão de livro */
+.book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante que os filtros fiquem na parte inferior */
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  height: 350px; /* Aumentamos a altura para acomodar a descrição */
+  position: relative;
+}
+
+/* Estilo para o botão de descrição */
+.description-toggle {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.description-toggle:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para a descrição do livro */
+.book-description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  text-align: justify;
+  max-height: 150px; /* Limita a altura da descrição */
+  overflow-y: auto; /* Permite rolar a descrição caso ela seja muito longa */
+}
+
+/* Estilo para a imagem do livro */
+.book-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o seletor de estantes (filtros) */
+.book-card select {
+  margin-top: auto; /* Faz o select ficar no fundo do cartão */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.book-card {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.description-toggle {
+  background-color: #555655;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.description-toggle:hover {
+  background-color: #000000;
+}
+
+.book-card .description-card {
+  position: fixed; /* Fixa a descrição na tela */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza a descrição */
+  background-color: white;
+  padding: 20px;
+  max-width: 90%; /* Define uma largura máxima da descrição */
+  max-height: 80%; /* Define uma altura máxima para não ocupar toda a tela */
+  overflow-y: auto; /* Permite rolagem caso o conteúdo ultrapasse o limite de altura */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Certifica-se que o card de descrição está acima dos outros elementos */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, max-width 0.5s ease;
+}
+
+.book-card .description-card.open {
+  opacity: 1;
+  max-width: 95%; /* Aumenta a largura quando a descrição é aberta */
+}
+
+.book-card .description-content {
+  padding: 10px;
+}
+
+.book-card .description-card .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.book-card .description-card .close-btn:hover {
+  color: #000;
+}
